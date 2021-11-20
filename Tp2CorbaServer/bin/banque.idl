@@ -1,0 +1,5 @@
+interface Banque{
+	float crediter(in float montant,out float solde);
+	float debiter(in float montant,out float solde);
+	float afficherMontant(out float solde);
+};
